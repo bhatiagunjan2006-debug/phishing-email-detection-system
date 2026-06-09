@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="panel detector">
+  <div>
+    <p class="eyebrow">Cyber Security Minor Project</p>
+    <h1>Email Phishing Classifier</h1>
+    <p class="summary">Paste an email message to classify it using a trained Scikit-learn model.</p>
+  </div>
+
+  <form method="post" class="detector-form">
+    <label for="email_text">Email content</label>
+    <textarea id="email_text" name="email_text" rows="12" required placeholder="Paste the suspicious email here...">{{ email_text }}</textarea>
+    <button type="submit">Analyze Email</button>
+  </form>
+</section>
+
+{% if result %}
+<section class="result {{ 'danger' if result.is_phishing else 'safe' }}">
+  <p class="label">Prediction</p>
+  <h2>{{ result.prediction|title }}</h2>
+  <p>Confidence: {{ result.confidence }}%</p>
+</section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,31 @@
+email_text,label
+"Your account has been suspended. Verify your password immediately at http://secure-bank-login.example.com to avoid closure.",phishing
+"Dear customer, unusual activity was detected. Click here to confirm your billing details and restore access.",phishing
+"Congratulations, you have won a cash prize. Send your bank information to claim now.",phishing
+"Urgent: your mailbox storage is full. Login with your email password to increase quota.",phishing
+"We detected a failed delivery. Open the attachment and re-enter your credentials.",phishing
+"Your invoice is overdue. Pay immediately using the link below to prevent legal action.",phishing
+"Security alert: validate your account number and PIN within 24 hours.",phishing
+"Your payment failed. Update card information at the attached portal.",phishing
+"Final warning: your tax refund requires identity confirmation. Submit SSN and bank details.",phishing
+"IT Helpdesk requires your username and password for a mandatory migration.",phishing
+"You are selected for a company bonus. Download this file and sign in to view.",phishing
+"Apple ID locked. Confirm your login details to unlock the account.",phishing
+"Your online banking profile will expire today. Click the secure link to renew.",phishing
+"Shipment waiting: pay a small customs fee through this payment page.",phishing
+"Netflix subscription cancelled. Enter card details to reactivate your account.",phishing
+"Please review the meeting agenda attached for tomorrow's product planning session.",legitimate
+"Your monthly bank statement is now available in the official mobile banking app.",legitimate
+"Hi team, the sprint review is scheduled for Friday at 3 PM in conference room B.",legitimate
+"Thank you for your order. Your receipt and tracking number are included below.",legitimate
+"The HR department has published the updated holiday calendar on the company portal.",legitimate
+"Your password was changed successfully. Contact support if you did not request this.",legitimate
+"Reminder: submit your timesheet before 5 PM today.",legitimate
+"Professor Sharma shared the lecture notes for the cyber security module.",legitimate
+"Your library book return date is next Monday. Please renew online if needed.",legitimate
+"The maintenance team will perform server updates this weekend.",legitimate
+"Here is the project report draft for your review and comments.",legitimate
+"Your appointment has been confirmed for June 12 at 10 AM.",legitimate
+"The finance team approved your travel reimbursement request.",legitimate
+"Please find attached the minutes from yesterday's faculty meeting.",legitimate
+"Welcome to the workshop. Registration details and venue map are attached.",legitimate

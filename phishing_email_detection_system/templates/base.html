@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phishing Email Detection System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="{{ url_for('index') }}">Phishing Email Detection System</a>
+      <nav>
+        <a href="{{ url_for('index') }}">Detector</a>
+        <a href="{{ url_for('history') }}">History</a>
+      </nav>
+    </header>
+
+    <main class="shell">
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>
